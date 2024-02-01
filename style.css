@@ -124,7 +124,7 @@
 .banner .banner-img img {
   width: 100%;
 }
-@media (max-width: 319px) {
+@media (max-width: 420px) {
   .banner {
     flex-direction: column;
     height: 190vw;
@@ -164,89 +164,7 @@
     width: 85vw;
   }
 }
-@media (min-width: 320px) and (max-width: 375px) {
-  .banner {
-    flex-direction: column;
-    height: 190vw;
-  }
-  .banner .content {
-    top: 20vw;
-    height: 81vw;
-    width: 85vw;
-    left: 6vw;
-  }
 
-  .banner .content h1 {
-    font-size: 11vw;
-    font-weight: 500;
-  }
-  .banner .content p {
-    margin-top: 3vw;
-    font-size: 4.8vw;
-  }
-  .banner .content button {
-    font-size: 5vw;
-    width: 48vw;
-    height: 9vw;
-    margin-top: 5vw;
-    border-radius: 10vw;
-  }
-
-  .banner .banner-img {
-    width: 90vw;
-    top: 20vw;
-    left: 0vw;
-  }
-  .banner .banner-img img {
-    top: 5vw;
-    position: relative;
-    left: 3vw;
-    width: 85vw;
-  }
-}
-
-@media (min-width: 376px) and (max-width: 425px) {
-  .banner {
-    flex-direction: column;
-    height: 210vw;
-  }
-  .banner .content {
-    top: 20vw;
-    height: 100vw;
-    width: 85vw;
-    left: 6vw;
-  }
-
-  .banner .content h1 {
-    font-size: 14vw;
-    font-weight: 500;
-  }
-  .banner .content p {
-    margin-top: 3vw;
-    font-size: 6vw;
-  }
-  .banner .content button {
-    font-size: 5vw;
-    width: 48vw;
-    height: 10vw;
-    margin-top: 5vw;
-    border-radius: 10vw;
-  }
-
-  .banner .banner-img {
-    width: 90vw;
-    height: 80vw;
-    top: 20vw;
-    left: 0vw;
-    /* border: 2px solid red; */
-  }
-  .banner .banner-img img {
-    top: 5vw;
-    position: relative;
-    left: 0vw;
-    width: 93.5vw;
-  }
-}
 @media (min-width: 426px) {
 }
 /* ------------------- -------------------------- */
